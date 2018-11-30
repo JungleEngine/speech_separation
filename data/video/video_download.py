@@ -4,7 +4,7 @@ from __future__ import print_function
 import sys
 import os
 import datetime
-sys.path.append("../lib")
+sys.path.append("data/lib")
 import AVHandler as avh
 import pandas as pd
 
