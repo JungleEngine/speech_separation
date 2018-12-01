@@ -79,7 +79,7 @@ def download_video_frames(loc,cat,start_idx,end_idx,rm_video):
         os.system(command)
 
 avh.mkdir('video_train')
-cat_train = pd.read_csv('../audio/catalog/avspeech_train.csv')
+cat_train = pd.read_csv('speech_separation/data/audio/catalog/avspeech_train.csv')
 
 # download video , convert to images separately
 #avh.video_download(loc='video_train',v_name='video_train',cat=cat_train,start_idx=2,end_idx=4)
